@@ -1,0 +1,70 @@
+<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anshita Singh GitHub stats">
+<defs>
+  <clipPath id="rc"><rect x="0" y="0" width="495" height="195" rx="16"/></clipPath>
+  <linearGradient id="bgg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2a0f4a"/>
+  </linearGradient>
+  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff8fd6"/>
+    <stop offset="100%" stop-color="#c084fc"/>
+  </linearGradient>
+  
+</defs>
+<style>
+  text { font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+  .mono { font-family:'Consolas','SFMono-Regular','Menlo','Courier New',monospace; }
+  .card-bg { animation: cardFadeIn 0.6s ease forwards; }
+  @keyframes cardFadeIn { from{opacity:0;} to{opacity:1;} }
+</style>
+<style>
+  .stat-row { opacity:0; animation: rowFade 0.5s ease forwards; }
+  @keyframes rowFade { to { opacity:1; } }
+  .rank-ring { animation: ringDraw 1.6s cubic-bezier(.3,0,.2,1) forwards; }
+  @keyframes ringDraw { from { stroke-dashoffset:251.33; } to { stroke-dashoffset:35.19; } }
+  .rank-spin { animation: spin 6s linear infinite; transform-origin:420px 97px; }
+  @keyframes spin { from{transform:rotate(0deg);} to{transform:rotate(360deg);} }
+</style>
+<g clip-path="url(#rc)">
+  <rect width="495" height="195" fill="url(#bgg)"/>
+  <rect width="495" height="195" fill="none"/>
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#f5e6ff">GitHub Stats</text>
+  
+        <g class="stat-row" style="animation-delay:0.50s">
+          <animateTransform attributeName="transform" type="translate" from="-40,0" to="0,0" dur="0.5s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <circle cx="14" cy="41" r="4" fill="url(#ringGrad)"/>
+          <text x="28" y="46" font-size="14" fill="#f5e6ff">Total Stars</text>
+          <text x="330" y="46" text-anchor="end" font-size="14" font-weight="700" fill="#ff8fd6" class="mono">38</text>
+        </g>
+        <g class="stat-row" style="animation-delay:0.65s">
+          <animateTransform attributeName="transform" type="translate" from="-40,0" to="0,0" dur="0.5s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <circle cx="14" cy="73" r="4" fill="url(#ringGrad)"/>
+          <text x="28" y="78" font-size="14" fill="#f5e6ff">Total Commits (2026)</text>
+          <text x="330" y="78" text-anchor="end" font-size="14" font-weight="700" fill="#ff8fd6" class="mono">612</text>
+        </g>
+        <g class="stat-row" style="animation-delay:0.80s">
+          <animateTransform attributeName="transform" type="translate" from="-40,0" to="0,0" dur="0.5s" begin="0.80s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <circle cx="14" cy="105" r="4" fill="url(#ringGrad)"/>
+          <text x="28" y="110" font-size="14" fill="#f5e6ff">PRs Merged</text>
+          <text x="330" y="110" text-anchor="end" font-size="14" font-weight="700" fill="#ff8fd6" class="mono">27</text>
+        </g>
+        <g class="stat-row" style="animation-delay:0.95s">
+          <animateTransform attributeName="transform" type="translate" from="-40,0" to="0,0" dur="0.5s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <circle cx="14" cy="137" r="4" fill="url(#ringGrad)"/>
+          <text x="28" y="142" font-size="14" fill="#f5e6ff">Repositories</text>
+          <text x="330" y="142" text-anchor="end" font-size="14" font-weight="700" fill="#ff8fd6" class="mono">19</text>
+        </g>
+
+  <g transform="translate(420,97)">
+    <circle r="40" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="9"/>
+    <g class="rank-spin">
+      <circle class="rank-ring" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="9" stroke-linecap="round"
+        stroke-dasharray="251.33" stroke-dashoffset="251.33"
+        transform="rotate(-90)"/>
+    </g>
+    <text x="0" y="-2" text-anchor="middle" font-size="26" font-weight="800" fill="#f5e6ff">A+</text>
+    <text x="0" y="18" text-anchor="middle" font-size="10" fill="#b79ad6" class="mono">RANK</text>
+  </g>
+  <rect x="0" y="0" width="495" height="195" rx="16" fill="none" stroke="#ff9dd8" stroke-opacity="0.35"/>
+</g>
+</svg>
