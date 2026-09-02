@@ -93,7 +93,7 @@ I'm **Anshita Singh**, an **AI/ML Engineer and aspiring Data Scientist** based i
 | **[Smart Home Ear — AI Sound Detection](https://github.com/AnshitaSingh01/Smart_Home_Ear)** | PyTorch · Librosa · CNN · Mel-Spectrogram · FastAPI · Streamlit | Led the team; built a full-stack emergency sound-alert system with an integrated CNN audio classifier |
 | **Cataract Detection Model** | PyTorch · CNN · OpenCV · Transfer Learning | CNN classifier for automated cataract detection to support early diagnosis in resource-limited settings |
 | **Tooth Number Detection Model** | YOLO · OpenCV · Python | Object-detection pipeline that numbers teeth on radiographs per standard dental conventions |
-| **[Medimate — Medicine Reminder App](https://github.com/AnshitaSingh01)** | Flutter · Dart | Cross-platform reminder app with auth & scheduled notifications; earned *Star Performer* recognition |
+| **[Medimate — Medicine Reminder App](https://github.com/AnshitaSingh01/Medimate)** | Flutter · Dart | Cross-platform reminder app with auth & scheduled notifications; earned *Star Performer* recognition |
 | **Dental Implant Analysis Pipeline** *(Rayoscan AI Diagnostics)* | YOLOv8 · U-Net · OpenCV | Two-stage detection + segmentation workflow; reached 94% mAP after tuning on radiographic data |
 
 <br/>
