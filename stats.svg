@@ -52,7 +52,7 @@
           <animateTransform attributeName="transform" type="translate" from="-40,0" to="0,0" dur="0.5s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
           <circle cx="14" cy="137" r="4" fill="url(#ringGrad)"/>
           <text x="28" y="142" font-size="14" fill="#f5e6ff">Repositories</text>
-          <text x="330" y="142" text-anchor="end" font-size="14" font-weight="700" fill="#ff8fd6" class="mono">19</text>
+          <text x="330" y="142" text-anchor="end" font-size="14" font-weight="700" fill="#ff8fd6" class="mono">9</text>
         </g>
 
   <g transform="translate(420,97)">
